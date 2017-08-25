@@ -1,0 +1,96 @@
+body {
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+h1 {
+  color: #fff;
+}
+
+.player {
+  padding-right: 20px;
+  border-bottom: solid grey 2px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right:300px;
+  margin-top: -50px;
+
+}
+
+audio {
+  width: 800px;
+}
+
+#textbox {
+  height: 30px;
+  width: 700px;
+  margin-top: 50px;
+  display: inline-block;
+  margin-left: 300px;
+  margin-bottom: 50px;
+
+}
+
+#submitButton {
+  width: 100px;
+  height: 30px;
+}
+
+.results {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+
+
+}
+
+template {
+  display: flex;
+  flex-direction: row;
+
+
+  /*height: 300px;
+  width: 200px;*/
+  width: 33%;
+  height:auto;
+  margin-right: 50px;
+  margin-left: 50px;
+  justify-content: space-between;
+  padding-top: 50px;
+
+}
+
+div.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+
+h4 {
+  width: 75%;
+}
+
+
+img {
+  height: 200px;
+  width: 200px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+
+button {
+  width: 75px;
+  height: 20px;
+}
